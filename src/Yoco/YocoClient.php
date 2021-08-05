@@ -4,7 +4,6 @@
 namespace Yoco;
 
 
-use Illuminate\Support\Facades\Log;
 use Yoco\Exceptions\DeclinedException;
 use Yoco\Exceptions\InternalException;
 use Yoco\Exceptions\ApiKeyException;
