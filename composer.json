@@ -1,0 +1,27 @@
+{
+    "name": "yoco/yoco-php",
+    "type": "library",
+    "description": "Yoco PHP Library",
+    "keywords": [
+        "yoco",
+        "payment processing",
+        "api"
+    ],
+    "homepage": "https://developer.yoco.com",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Yoco and contributors",
+            "homepage": "http://developer.yoco.com",
+            "role": "Creator & Maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yoco\\": "src/Yoco"
+        }
+    }
+}
